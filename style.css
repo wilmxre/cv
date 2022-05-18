@@ -20,13 +20,35 @@ body {
   flex-direction: row;
   align-items: center;
   height: 10%;
-  background-color: violet;
+  margin: 0 auto;
 }
 
 .header h2 {
   font-size: 6rem;
-  width: 85%;
-  margin: 0 auto;
+}
+
+hr {
+  height: 4px;
+  border-width: 0;
+  background-color: gray
+}
+
+.cred-outer-wrapper {
+  display: flex;
+  margin-left: auto;
+}
+
+.cred-wrap {
+  display: flex;
+  padding: 2rem;
+  font-size: 2.4rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cred-wrap a {
+  all: unset;
+  cursor: pointer;
 }
 
 .grid-wrapper {
@@ -39,14 +61,14 @@ body {
 
 .left-section {
   grid-area: 1 / 1 / 2 / 2;
-  background-color: rgb(190, 190, 190);
-  border: 5px solid red;
+  /* background-color: rgb(190, 190, 190); */
+  /* border: 5px solid red; */
 }
 
 .right-section {
   grid-area: 1 / 2 / 2 /3;
-  background-color: rgb(190, 190, 190);
-  border: 5px solid blue;
+  /* background-color: rgb(190, 190, 190); */
+  /* border: 5px solid blue; */
 }
 
 .wrap {
