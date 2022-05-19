@@ -6,6 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -34,7 +35,7 @@ a:hover {
 }
 
 .header h2 {
-  font-size: 6rem;
+  font-size: 6.5rem;
 }
 
 hr {
@@ -51,7 +52,7 @@ hr {
 .cred-wrap {
   display: flex;
   padding: 2rem;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   align-items: center;
   gap: 1rem;
 }
@@ -95,13 +96,13 @@ hr {
 }
 
 .title {
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 4.2rem;
+  font-weight: 900;
 }
 
 .content {
-  font-size: 2.6rem;
-  width: 75%;
+  font-size: 2.75rem;
+  width: 87%;
 }
 
 .skill-item {
@@ -113,13 +114,13 @@ hr {
 }
 
 .content-title {
-  font-size: 2.7rem;
-  font-weight: bold;
+  font-size: 3.3rem;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
 .project-link {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .project-description {
